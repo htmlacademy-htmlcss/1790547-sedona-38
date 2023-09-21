@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Руслан Бикбулатов](https://up.htmlacademy.ru/htmlcss/38/user/1790547).
-* Наставник: Виталий Драгулин https://htmlacademy.ru/profile/id1008501.
+* Наставник: [Виталий Драгулин](https://htmlacademy.ru/profile/id1008501).
 
 ---
 
