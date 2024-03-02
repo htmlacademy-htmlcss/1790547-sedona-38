@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Седона</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <header class="page-header">
+            <nav class="navigation">
+                <a class="main-header-logo" href="index.html">
+                    <img src="#" alt="Логотип сайта Седона">
+                </a>
+                <ul class="navigation-links">
+                    <li class="navigation-links-item">
+                        <a class="navigation-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="navigation-links-item">
+                        <a class="navigation-link" href="#">О Седоне</a>
+                    </li>
+                    <li class="navigation-links-item">
+                        <a class="navigation-link" href="catalog.html">Гостиницы</a>
+                    </li>
+                </ul>
+                <ul class="navigation-user">
+                    <li class="navigation-user-item">
+                        <a class="navigation-link" href="#">
+                            <span class="visually-hidden">Поиск</span>
+                        </a>
+                    </li>
+                    <li class="navigation-user-item">
+                        <a class="navigation-link" href="#">
+                            <span class="visually-hidden">Избранное</span>
+                            <span class="navigation-link-amount">12</span>
+                        </a>
+                    </li>
+                    <li class="navigation-user-item">
+                        <a class="navigation-link" href="#">
+                            Хочу сюда
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-inner">
+            <section class="main-inner-filter-section">
+                <header class="inner-header">
+                    <h1 class="inner-header-title">Гостиницы Седоны</h1>
+                    <ul class="breadcrumbs">
+                        <li class="breadcrubs-item">
+                            <a class="breadcrubs-link" href="index.html">
+                                <img src="#" alt="Иконнка главной страницы">
+                            </a>
+                        </li>
+                        <li class="breadcrubs-item">
+                            <a class="breadcrubs-link" href="catalog.html">
+                               Гостиницы
+                            </a>
+                        </li>
+                    </ul>
+                </header>
+                <section class="choice-conditions">
+                    <form action="#" method="get">
+                        <fieldset class="infrastructure">
+                            <legend class="infrastructure-title">Инфраструктура</legend>
+                            <div class="infrastructure-item">
+                                <label for="pool">Бассейн</label>
+                                <input class="square-input" type="checkbox" id="pool" name="pool" checked />
+                            </div>
+                            <div class="infrastructure-item">
+                                <label for="parking">Парковка</label>
+                                <input class="square-input" type="checkbox" id="parking" name="parking" checked />
+                            </div>
+                            <div class="infrastructure-item">
+                                <label for="wi-fi">Wi-Fi</label>
+                                <input class="square-input" type="checkbox" id="wifi" name="wifi" />
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="infrastructure">
+                            <legend class="infrastructure-title">Тип жилья</legend>
+                            <div class="infrastructure-item">
+                                <label for="hotel">Гостиница</label>
+                                <input class="square-input" type="radio" id="hotel" name="hotel" checked />
+                            </div>
+                            <div class="infrastructure-item">
+                                <label for="parking">Парковка</label>
+                                <input class="square-input" type="checkbox" id="parking" name="parking" checked />
+                            </div>
+                            <div class="infrastructure-item">
+                                <label for="wi-fi">Wi-Fi</label>
+                                <input class="square-input" type="checkbox" id="wifi" name="wifi" />
+                            </div>
+                        </fieldset>
+
+                    </form>
+                </section>
+            </section>
+        </main>
+    </div>
+
+  </body>
